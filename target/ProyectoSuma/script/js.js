@@ -8,15 +8,7 @@ salir.addEventListener("click",(Event)=>{
 });
 
 
-let radios=document.querySelectorAll('input[type=radio][name="operacion"]');
-radios.forEach(function (radio){
-    if (this.checked){
-        console.log("Radio seleccionado",this.value);
-        let operaciones=this.value;
-        mostrarNumeros(operaciones);
-        window.location.replace("operaciones.jsp")
-    }
-});
+
 
 
 function mostrarNumeros() {
@@ -65,4 +57,14 @@ respuesta.addEventListener("change",(event) => {
     document.querySelector("#incorrecta").innerHTML=contadorI;
 });
 
+
+let radios=document.querySelectorAll('input[type=radio][name="operacion"]');
+radios.forEach(function (radio){
+    if (this.checked){
+        console.log("Radio seleccionado",this.value);
+        let operaciones=this.value;
+        mostrarNumeros(operaciones);
+        window.location.replace("operaciones.jsp")
+    }
+})
 
