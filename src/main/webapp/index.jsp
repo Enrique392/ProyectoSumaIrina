@@ -54,11 +54,12 @@ equal
             <input type="number" id="resultado" name="resultado" min="0" max="200" >
             </p>
         </form>
+
     <p>
-        <span class="material-symbols-rounded">
+        <span class="material-symbols-rounded correcta">
             thumb_up
         </span>
-        <span class="material-symbols-rounded">
+        <span class="material-symbols-rounded incorrecta">
             thumb_down
         </span>
     </p>
@@ -71,9 +72,11 @@ equal
     </div>
 
 <footer class="color-naranja col-12">
+    <button class="color-naranja" id="salir">
     <span class="material-symbols-rounded color-amarillo">
         exit_to_app
     </span>
+    </button>
 </footer>
     <script src="script/js.js"></script>
 </body>

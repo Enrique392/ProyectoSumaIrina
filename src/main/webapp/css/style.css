@@ -51,7 +51,12 @@ footer{
 
 .correcta{
     color: green;
+
 }
 .incorrecta{
     color:red;
+}
+.correcta,.incorrecta{
+    font-size: 50px;
+    margin: -100px;
 }
